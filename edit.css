@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  }
+  
+  header {
+    height: 73px;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin: auto;
+  } 
+  
+  
+  header h1{
+    color: whitesmoke;
+  }
+  
+  header button:first-child{
+    border: none;
+    background:none;
+  }
+  
+  header button:first-child a{
+    text-decoration: none;
+    color: #ffc107;
+    padding: 10px 16px 10px 16px;
+    font-size: 16px;
+    border:1.8px solid #ffc107;
+    margin-left: 12px;
+    border-radius: 3px;
+  }
+  
+  i{
+    margin-left: 7px;
+  }
+  
+  
+  header button:first-child a:hover{
+    color: #212529;
+    background-color: #ffc107;
+  }
+  
+  
+  header button:last-child{
+    border: none;
+    background: none;
+  }
+  
+  
+  header button:last-child a{
+    text-decoration: none;
+    color: #198754;
+    padding: 10px 16px 10px 16px;
+    border:1.8px solid #198754;
+    margin-right: 12px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  header button:last-child a:hover{
+    color: whitesmoke;
+    background-color: #198754;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.5);
+  }
+  
+  table,tr,td{
+    /* border: 1px solid; */
+    border-collapse: collapse;
+    padding: 10px 20px 10px 20px;
+    
+  }
+  
+  table{
+    margin: auto;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #212529 65%, rgba(255, 255, 255, 0.2) 100%);
+    /* background: yellow; */
+    border: 1.5px gold solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  table img{
+    border: gold solid 2px;
+    width: 150px;
+  }
+  
+  input,select,option{
+    /* margin-top:20px; */
+    /* border: solid 1px goldenrod; */
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 360px;
+    outline: none; 
+    background:none;
+    /* background: white; */
+  }
+
+  input, select{
+    color: white;
+  }
+
+  option{
+    color: black;
+  }
+  
+  .hour, .minute{
+    width: 120px;
+    /* border: solid 1px; */
+  }
+  
+  
+  
+  .minute{
+    margin-left: 27px;
+    /* border: solid 1px; */
+  }
+  
+  /* button */
+  .button {
+    background-color: #26c6da;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 3px;
+    box-shadow: 1px 5px 20px -5px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    /* margin-top: 10px; */
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: #ef5350;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 3px;
+    box-shadow: 1px 5px 20px -5px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    /* margin-top: 10px; */
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  .button2 i{
+    /* width: 20px; */
+    font-size: 18px;
+    margin-right: 5px;
+  }
+   
+  .button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button1 i{
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  label{
+    color: white;
+  }
+   

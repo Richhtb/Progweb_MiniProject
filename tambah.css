@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800); */
+    /* background-repeat: no-repeat; */
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+header {
+    height: 73px;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin: auto;
+  } 
+
+
+header h1{
+    color: whitesmoke;
+}
+
+header button:first-child{
+    border: none;
+    background:none;
+}
+
+header button:first-child a{
+    text-decoration: none;
+    color: #ffc107;
+    padding: 10px 16px 10px 16px;
+    font-size: 16px;
+    border:1.8px solid #ffc107;
+    margin-left: 12px;
+    border-radius: 3px;
+}
+
+i{
+    margin-left: 7px;
+}
+
+
+header button:first-child a:hover{
+    color: #212529;
+    background-color: #ffc107;
+}
+
+
+header button:last-child{
+    border: none;
+    background: none;
+}
+
+
+header button:last-child a{
+    text-decoration: none;
+    color: #198754;
+    padding: 10px 16px 10px 16px;
+    border:1.8px solid #198754;
+    margin-right: 12px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+header button:last-child a:hover{
+    color: whitesmoke;
+    background-color: #198754;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.5);
+}
+  
+
+table,tr,td{
+    /* border: solid 1px;  */
+    /* border-collapse: collapse;  */
+    margin: auto;
+    border-radius: 10px; 
+}
+
+
+
+table{
+    margin-top: 20px;
+    /* background-color: #212529; */
+    /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)); */
+    /* background: linear-gradient(rgba(60,60,60,0.3),rgba(30,30,30,0.4)); */
+    /* background: linear-gradient(to right, rgba(30,30,30,0.4), rgba(255,255,255,0.4)); */
+    /* background: linear-gradient(to right, rgba(10, 10, 10, 0.4), rgba(240, 240, 240, 0.4)); */
+    /* background: linear-gradient(to right, rgba(10, 10, 10, 0.4) 0%, rgba(240, 240, 240, 0.4) 30%); */
+    /* background: linear-gradient(to right, rgba(240, 240, 240, 0.4) 0%, rgba(10, 10, 10, 0.4) 30%); */
+    /* background: #212529; */
+    /* background: linear-gradient(to right, #212529, rgba(255, 255, 255, 0.2)); */
+    background: linear-gradient(to right, #212529 65%, rgba(255, 255, 255, 0.2) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: solid 1.5px gold;
+}
+
+.table:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+td{
+    
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    padding-bottom: 25px;
+}
+
+p{
+    margin: 20px;
+}
+
+input, select, option {
+    /* /* box-sizing: border-box; */
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    width: 250px;
+    outline: none; 
+    background:none;
+    /* height: 50px; */
+    /* color: whitesmoke; */
+    margin-left: 15px;
+    
+  }
+
+input,select{
+    color: whitesmoke;
+}
+
+option{
+    color: black;
+}
+/* 
+input{
+    margin:0px 8px 0px 8px;
+} */
+  
+.hour{
+    width: 60px;
+    /* border: solid 1px; */
+}
+
+.minute{
+    width: 60px;
+}
+
+.minute{
+    margin-left: 27px;
+    /* border: solid 1px; */
+}
+
+
+.tombol button:nth-child(1) {
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    transition: 0.25s;
+    width: 100px;
+    margin-right: 20px;
+  }
+
+.tombol button:nth-child(1):hover  {
+    box-shadow: 0px 1px 18px #24c64f;
+  }
+
+
+  .tombol button:nth-child(2) {
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    transition: 0.25s;
+    width: 100px;
+    margin-right: 20px;
+  }
+.tombol button:nth-child(2):hover  {
+    box-shadow: 0px 1px 18px #24c64f;
+}
+  
+
+label{
+    color: white;
+    /* padding-right: 5px; */
+    /* padding-left: 5px; */
+}
+
+
+
+
+
