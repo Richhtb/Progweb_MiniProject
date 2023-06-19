@@ -7,6 +7,7 @@ if (!isset($_SESSION['username'])) {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +18,7 @@ if (!isset($_SESSION['username'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="add.js"></script>
     <title>Tambah</title>
+    
 </head>
 <body>
     <header>
@@ -36,7 +38,7 @@ if (!isset($_SESSION['username'])) {
             </tr>
             <tr>
                 <td><label for="mulai">Tanggal Mulai</label></td>
-                <td><input type="date" name="tgl_mulai" required id="tgl_mulai" id="mulai">
+                <td><input type="date" name="tgl_mulai" required id="tgl_mulai" id="mulai" >
             </td>
             </tr>
             <tr>
@@ -100,9 +102,8 @@ if (!isset($_SESSION['username'])) {
                 $uploadfile = "upload/".$_FILES["gambar"]["name"]; // tambah dari folder gambar ke $_FILE[gambar][name]
                 $tipefile = strtolower(pathinfo($uploadfile,PATHINFO_EXTENSION));
 
-                if ($_FILES["gambar"]["size"] > 10000000) {
-                    echo "file anda terlalu besar";
-                } elseif (move_uploaded_file($_FILES["gambar"]["tmp_name"], $uploadfile)) {
+                
+                if (move_uploaded_file($_FILES["gambar"]["tmp_name"], $uploadfile)) {
                     // $sql = "INSERT INTO kegiatan (nama_kegiatan,tgl_mulai,tgl_selesai,level, jam, menit,lokasi,gambar)VALUES ('$nama','$mulai','$selesai','$level','$jam','$menit','$lokasi','".$_FILES["gambar"]["name"]."')";
                     $sql = "INSERT INTO kegiatan (nama_kegiatan, tgl_mulai, tgl_selesai, level, jam, menit, lokasi, gambar, username) VALUES ('$nama', '$mulai', '$selesai', '$level', '$jam', '$menit', '$lokasi', '".$_FILES["gambar"]["name"]."', '$username')";
                     $res = mysqli_query($conn, $sql);
