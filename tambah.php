@@ -7,7 +7,6 @@ if (!isset($_SESSION['username'])) {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +17,6 @@ if (!isset($_SESSION['username'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="add.js"></script>
     <title>Tambah</title>
-    
 </head>
 <body>
     <header>
@@ -38,7 +36,7 @@ if (!isset($_SESSION['username'])) {
             </tr>
             <tr>
                 <td><label for="mulai">Tanggal Mulai</label></td>
-                <td><input type="date" name="tgl_mulai" required id="tgl_mulai" id="mulai" >
+                <td><input type="date" name="tgl_mulai" required id="tgl_mulai" id="mulai">
             </td>
             </tr>
             <tr>
